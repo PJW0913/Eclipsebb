@@ -14,6 +14,44 @@ public class CompanyContact extends Contact{
 		this.position = position;
 	}
 	
+	
+	
+	public String getCompanyName() {
+		return companyName;
+	}
+
+
+
+	public void setCompanyName(String companyName) {
+		this.companyName = companyName;
+	}
+
+
+
+	public String getDepartmentName() {
+		return departmentName;
+	}
+
+
+
+	public void setDepartmentName(String departmentName) {
+		this.departmentName = departmentName;
+	}
+
+
+
+	public String getPosition() {
+		return position;
+	}
+
+
+
+	public void setPosition(String position) {
+		this.position = position;
+	}
+
+
+
 	public void printInfo() {
 		System.out.println("------------------------------------------------");
 		System.out.println("¿Ã∏ß: " + super.getName());

@@ -73,13 +73,21 @@ public class SmartPhone {
 	
 	//객체정보 출력
 	public void printContact(Contact contact) {
-		if(contact instanceof CompanyContact) {
-			contact.printInfo();
-			return;
-		}else if(contact instanceof CustomerContact) {
-			contact.printInfo();
-			return;
-		}
+//		if(contact instanceof CompanyContact) {
+//			contact.printInfo();
+//			return;
+//		}else if(contact instanceof CustomerContact) {
+//			contact.printInfo();
+//			return;
+//		}
+		
+//		if(contact.getGroup().contentEquals("회사")) {	
+//				contact.printInfo();	
+//		}else if(contact.getGroup().contentEquals("거래처")) {
+//				contact.printInfo();	
+//		}
+		
+		contact.printInfo();
 	}
 	
 	//모든 연락처 출력

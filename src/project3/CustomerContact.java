@@ -13,6 +13,44 @@ public class CustomerContact extends Contact{
 		this.transactionItem = transactionItem;
 		this.position = position;
 	}
+	
+	
+
+	public String getCustomerName() {
+		return customerName;
+	}
+
+
+
+	public void setCustomerName(String customerName) {
+		this.customerName = customerName;
+	}
+
+
+
+	public String getTransactionItem() {
+		return transactionItem;
+	}
+
+
+
+	public void setTransactionItem(String transactionItem) {
+		this.transactionItem = transactionItem;
+	}
+
+
+
+	public String getPosition() {
+		return position;
+	}
+
+
+
+	public void setPosition(String position) {
+		this.position = position;
+	}
+
+
 
 	public void printInfo() {
 		System.out.println("------------------------------------------------");
