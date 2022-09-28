@@ -1,4 +1,4 @@
-package threadname;
+package thread_name;
 
 public class ThreadNameExample {
 
