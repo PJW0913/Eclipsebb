@@ -1,12 +1,11 @@
-package createthread_beep;
+package thread_create;
 
-public class BeepPrintExample2 {
+public class BeepPrintExample3 {
 
 	public static void main(String[] args) {
 		// how1
-		Runnable beepTask = new BeepTask();
-		Thread thread = new Thread(beepTask);
-
+		Thread thread = new BeepThread();
+		
 		thread.start();
 		
 		for(int i = 0; i < 5; i++) {

@@ -1,4 +1,4 @@
-package createthread_beep;
+package thread_create;
 
 import java.awt.Toolkit;
 
