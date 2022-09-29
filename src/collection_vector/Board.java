@@ -1,4 +1,4 @@
-package collction_vector;
+package collection_vector;
 
 public class Board {
 
