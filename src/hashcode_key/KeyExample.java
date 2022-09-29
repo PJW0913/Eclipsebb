@@ -1,4 +1,4 @@
-package hashmap_key;
+package hashcode_key;
 
 import java.util.HashMap;
 

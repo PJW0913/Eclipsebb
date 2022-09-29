@@ -1,4 +1,4 @@
-package hashmap_key;
+package hashcode_key;
 
 public class Key {
 
