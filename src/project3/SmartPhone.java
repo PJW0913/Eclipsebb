@@ -57,7 +57,7 @@ public class SmartPhone {
 			System.out.print("СїБо:");
 			String position = in.nextLine();
 			
-			return new CompanyContact(name, phoneNumber, email, address, birthday, group, customerName, transactionItem, position);
+			return new CustomerContact(name, phoneNumber, email, address, birthday, group, customerName, transactionItem, position);
 		
 		}else {
 			return new Contact(name, phoneNumber, email, address, birthday, group);
