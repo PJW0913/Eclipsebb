@@ -1,4 +1,4 @@
-package stream.inputstream.read;
+package stream_inputstream_read;
 
 import java.io.FileInputStream;
 import java.io.InputStream;
