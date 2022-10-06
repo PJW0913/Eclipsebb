@@ -1,4 +1,4 @@
-package server;
+package server_socket;
 
 import java.io.DataInputStream;
 import java.net.ServerSocket;
