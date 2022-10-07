@@ -87,7 +87,7 @@ public class MultiChatClient1 implements ActionListener, Runnable {
 		jframe.add(tab, BorderLayout.NORTH);
 		jframe.add(jsp, BorderLayout.CENTER);
 		jframe.add(msgPanel, BorderLayout.SOUTH);
-		clayout.show(tab,  "login");
+		clayout.show(tab,  "login"); 
 		jframe.pack();
 		jframe.setResizable(true);
 		jframe.setVisible(true);		
