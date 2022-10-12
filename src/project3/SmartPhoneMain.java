@@ -11,7 +11,7 @@ public class SmartPhoneMain {
 		
 		System.out.println("#데이터 2개를 입력합니다.");
 		for(int i = 0; i < 2; i++) {
-			smartPhone.addContact(smartPhone.inputContactData());
+			smartPhone.addContact(smartPhone.inputContactData(i+1));
 		}
 		
 		
@@ -20,9 +20,9 @@ public class SmartPhoneMain {
 			String choiceMenu = scanner.nextLine();
 			
 			if(choiceMenu.contentEquals("1")) {
-				smartPhone.addContact(smartPhone.inputContactData());
+				smartPhone.addContact(smartPhone.inputContactData(1));
 			}else if(choiceMenu.contentEquals("2")) {
-				smartPhone.addContact(smartPhone.inputContactData());
+				smartPhone.addContact(smartPhone.inputContactData(2));
 			}else if(choiceMenu.contentEquals("3")) {
 				smartPhone.printAllContact();
 			}else if(choiceMenu.contentEquals("4")) {
@@ -33,7 +33,8 @@ public class SmartPhoneMain {
 				smartPhone.deleteContact(scanner.nextLine());
 			}else if(choiceMenu.contentEquals("6")) {
 				System.out.println("수정하고자하는 이름을 입력해주세요");
-				smartPhone.editContact(scanner.nextLine(), smartPhone.inputContactData());
+				String name = scanner.nextLine();
+				Contact contact = smartPhone.searchContact(name);
 			}else if(choiceMenu.contentEquals("7")) {
 				System.out.println("프로그램을 종료합니다.");
 				return;

@@ -14,7 +14,7 @@ public class SmartPhone {
 	}
 	
 	//데이터 입력
-	public Contact inputContactData() {
+	public Contact inputContactData(int type) {
 		System.out.print("이름: ");
 		String name = in.nextLine();
 		
@@ -33,7 +33,9 @@ public class SmartPhone {
 		System.out.print("그룹:");
 		String group = in.nextLine();
 		
-		if(group.contentEquals("회사")) {
+		Contact contact = null;
+		
+		if(type == 1) {
 			
 			System.out.print("회사이름:");
 			String companyName = in.nextLine();
@@ -44,9 +46,9 @@ public class SmartPhone {
 			System.out.print("직급:");
 			String position = in.nextLine();
 			
-			return new CompanyContact(name, phoneNumber, email, address, birthday, group, companyName, departmentName, position);
+			contact = new CompanyContact(name, phoneNumber, email, address, birthday, group, companyName, departmentName, position);
 		
-		}else if(group.contentEquals("거래처")) {
+		}else if(type == 2) {
 			
 			System.out.print("거래처이름:");
 			String customerName = in.nextLine();
@@ -57,12 +59,12 @@ public class SmartPhone {
 			System.out.print("직급:");
 			String position = in.nextLine();
 			
-			return new CustomerContact(name, phoneNumber, email, address, birthday, group, customerName, transactionItem, position);
+			contact = new CustomerContact(name, phoneNumber, email, address, birthday, group, customerName, transactionItem, position);
 		
-		}else {
-			
-			return new Contact(name, phoneNumber, email, address, birthday, group);
 		}
+			
+		return contact;
+		
 	}
 		
 	//배열에 연락처 객체 저장
@@ -74,8 +76,9 @@ public class SmartPhone {
 	
 	//객체정보 출력
 	public void printContact(Contact contact) {
-		
+		System.out.println("------------------------------------------------------------");
 		contact.printInfo();
+		System.out.println("------------------------------------------------------------");
 	}
 	
 	//모든 연락처 출력
@@ -86,15 +89,16 @@ public class SmartPhone {
 	}
 
 	//연락처 검색
-	public void searchContact(String name) {
+	public Contact searchContact(String name) {
 		for(int i = 0; i < countOfContact; i++) {
 			Contact contact = contacts[i];
 			if(contact.getName().contentEquals(name)) {
 				printContact(contact);
-				return;
+				return contact;
 			}
 		}
 		System.out.println("검색 결과가 없습니다.");
+		return null;
 	}
 
 	//연락처 삭제
