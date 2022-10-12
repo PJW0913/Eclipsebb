@@ -1,4 +1,4 @@
-package runtimeexception;
+package exception_runtime;
 
 public class ArrayIndexOutOfBoundsException {	//배열에서 인덱스 범위를 초과하여 사용할 경우 발생
 

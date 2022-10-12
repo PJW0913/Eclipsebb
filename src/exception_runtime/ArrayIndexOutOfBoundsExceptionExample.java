@@ -1,4 +1,4 @@
-package runtimeexception;
+package exception_runtime;
 
 public class ArrayIndexOutOfBoundsExceptionExample {
 

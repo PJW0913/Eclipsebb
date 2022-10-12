@@ -1,4 +1,4 @@
-package runtimeexception;
+package exception_runtime;
 
 public class NumberFormatExceptionExample {	//문자열을 숫자로 변환할 때 숫자로 변환될 수 없는 문자가 포함되어 있을 경우 발생
 
