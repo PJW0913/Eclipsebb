@@ -1,4 +1,4 @@
-package polymorphism.Tire.Hankook.Kumho;
+package inheritance_polymorphism;
 
 public class Tire {
 
