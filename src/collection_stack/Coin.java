@@ -1,4 +1,4 @@
-package stack;
+package collection_stack;
 
 public class Coin {
 
