@@ -1,4 +1,4 @@
-package equals;
+package object_equals;
 
 public class MemberExample {
 
