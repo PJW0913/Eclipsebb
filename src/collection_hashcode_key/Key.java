@@ -1,4 +1,4 @@
-package hashcode_key;
+package collection_hashcode_key;
 
 public class Key {
 
