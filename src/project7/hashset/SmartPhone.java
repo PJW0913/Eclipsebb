@@ -124,7 +124,7 @@ public class SmartPhone {
  
 		Contact contact = contactIterator.next();
 		if(contact.getName().contentEquals(name)) {
-			contacts.remove();
+			contacts.remove(contact);
 			contacts.add(newContact);
 			return;
 		}
