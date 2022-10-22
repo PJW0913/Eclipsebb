@@ -3,8 +3,7 @@ package project_datastructure;
 public class ListNode {
 	private String data;	
 	public ListNode link;	
-	public ListNode next;
-	public int size=0;
+
 	
 	public ListNode() {
 		this.data = null;
