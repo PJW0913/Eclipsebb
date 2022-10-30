@@ -12,6 +12,7 @@ public class MultipleInArray {
         		count++;
         	}
         }
+        
         for(int i = 0; i < answer.length; i++) {
         	System.out.println(answer[i]);
         }
