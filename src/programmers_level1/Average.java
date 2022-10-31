@@ -1,4 +1,4 @@
-package programmers_level0;
+package programmers_level1;
 
 public class Average {
 
