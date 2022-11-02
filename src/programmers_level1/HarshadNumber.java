@@ -16,6 +16,5 @@ public class HarshadNumber {
         	answer = false;
         }
         return answer;
-        return answer;
     }
 }
