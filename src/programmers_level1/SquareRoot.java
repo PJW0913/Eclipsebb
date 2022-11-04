@@ -5,15 +5,16 @@ public class SquareRoot {
         long answer = 0;
         int x = 1;
         
-        while(n != Math.pow(x, 2)) {
+        while(n >= x) {
         	if(n == Math.pow(x, 2)) {
         		answer = (long) Math.pow(x+1, 2);
         		break;
         	}
-        	x++;
-        	if(x == n) {
+        	if(Math.pow(x, 2) > n) {
+        		answer=-1;
         		break;
         	}
+        	x++;
         }
         return answer;
     }
