@@ -3,13 +3,16 @@ package programmers_level1;
 public class SquareRoot {
 	public long solution(long n) {
         long answer = 0;
+        int x = 1;
         
-        for(int i =1; i < n; i++ ) {
-        	if((int)Math.pow(i, 2) == n) {
-        		answer = (int)Math.pow(i+1, 2);
+        while(n != Math.pow(x, 2)) {
+        	if(n == Math.pow(x, 2)) {
+        		answer = (long) Math.pow(x+1, 2);
         		break;
-        	}else {
-        		answer = -1;        		
+        	}
+        	x++;
+        	if(x == n) {
+        		break;
         	}
         }
         return answer;
