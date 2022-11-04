@@ -5,15 +5,28 @@ public class NumReverseArray {
 	public int[] solution(long n) {
 		int length = (int)(Math.log10(n)+1);
         int[] answer = new int[length];
+        long i = n;
+        int x = 0;
+        int count = 0;
         
-        for(int i = 0; i < length; i++) {
-        	answer[i] = (int)n%10;
-        	n = (int)n/10;
+        while(i != 0) {
+        	x = (int) (i %10);
+        	i /= 10;
+        	answer[count] = x;
+        	count++;
         }
         
-        for(int i = 0; i < length; i++) {
-        	System.out.print(answer[i] + " ");
+        for(int j = 0; j < answer.length; j++) {
+        	System.out.println(answer[j]);
         }
+        
+        
         return answer;
     }
+	
+	public static void main(String[] args) {
+		NumReverseArray reverse = new NumReverseArray();
+		reverse.solution(12345);
+		
+	}
 }
