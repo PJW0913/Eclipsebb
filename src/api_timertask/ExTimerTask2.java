@@ -6,6 +6,6 @@ public class ExTimerTask2 extends TimerTask{
 
 	@Override
 	public void run() {
-		System.out.println("ExTimerTask2: ÀÌ°÷ÀÇ ÀÛ¾÷ÀÌ ½ÇÇàµË´Ï´Ù.");
+		System.out.println("ExTimerTask2: ì´ê³³ì˜ ì‘ì—…ì´ ì‹¤í–‰ë©ë‹ˆë‹¤.");
 	}
 }
