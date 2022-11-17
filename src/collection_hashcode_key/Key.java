@@ -12,17 +12,17 @@ public class Key {
 		  if(obj instanceof Key) {
 			  Key compareKey = (Key)obj;
 			  if(this.number == compareKey.number) {
-				  System.out.println("eqauls true ½ÇÇà");
+				  System.out.println("eqauls true ����");
 				  return true;
 			  }
 		  }
-		  System.out.println("equals false ½ÇÇà");
+		  System.out.println("equals false ����");
 		  return false;
 	  }
 	  
 	  @Override
 	  public int hashCode() {
-		  System.out.println("hasCode ½ÇÇà");
+		  System.out.println("hasCode ����");
 		  return number;
 	  }
 }
