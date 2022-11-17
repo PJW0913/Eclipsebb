@@ -12,8 +12,8 @@ public class Person implements Comparable<Person> {
 	
 	@Override
 	public int compareTo(Person o) {
-		//Person ÀÚ½ÅÀÇ age¿Í parameterÀÇ age °ªÀ» ºñ±³ÇÔ
-		if(age < o.age) return-1; //¿À¸§Â÷¼ø
+		//Person ìì‹ ì˜ ageì™€ parameterì˜ age ê°’ì„ ë¹„êµí•¨
+		if(age < o.age) return-1; //ì˜¤ë¦„ì°¨ìˆœ
 		else if(age == o.age) return 0;
 		else return 1;
 	}
