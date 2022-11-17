@@ -8,10 +8,10 @@ public class ComparableExample {
 	public static void main(String[] args) {
 
 		TreeSet<Person> treeSet = new TreeSet<Person>();
-		//³ªÀÌ °ªÀ¸·Î ¿À¸§Â÷¼øÀ¸·Î ÀÚµ¿ ÀúÀåµÊ
-		treeSet.add(new Person("È«±æµ¿", 45));
-		treeSet.add(new Person("±èÀÚ¹Ù", 25));
-		treeSet.add(new Person("¹ÚÁö¿ø", 31));
+		//ë‚˜ì´ ê°’ìœ¼ë¡œ ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ìë™ ì €ì¥ë¨
+		treeSet.add(new Person("í™ê¸¸ë™", 45));
+		treeSet.add(new Person("ê¹€ìë°”", 25));
+		treeSet.add(new Person("ë°•ì§€ì›", 31));
 		
 		Iterator<Person> iterator = treeSet.iterator();
 		while(iterator.hasNext()) {
