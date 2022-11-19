@@ -9,10 +9,10 @@ public class HashMapExample2 {
 
 		Map<Student, Integer> map = new HashMap<Student, Integer>();
 		
-		map.put(new Student(1, "ȫ�浿"), 95);
-		map.put(new Student(1, "ȫ�浿"), 95);
+		map.put(new Student(1, "È«±æµ¿"), 95);
+		map.put(new Student(1, "È«±æµ¿"), 95);
 		
-		System.out.println("�� Entry ��: " + map.size());
+		System.out.println("ÃÑ Entry ¼ö: " + map.size());
 	}
 
 }
