@@ -13,7 +13,7 @@ public class VectorExample_multi {
 			
 			public void run() {
 				for(int i = 0; i < 1000; i++) {
-					list.add(new Board("Á¦¸ñ1", "³»¿ë1", "±Û¾´ÀÌ1"));
+					list.add(new Board("ì œëª©1", "ë‚´ìš©1", "ê¸€ì“´ì´1"));
 				}
 			}
 		}
@@ -22,7 +22,7 @@ public class VectorExample_multi {
 			
 			public void run() {
 				for(int i = 0; i < 1000; i++) {
-					list.add(new Board("Á¦¸ñ2", "³»¿ë2", "±Û¾´ÀÌ2"));
+					list.add(new Board("ì œëª©2", "ë‚´ìš©2", "ê¸€ì“´ì´2"));
 				}
 			}
 		}
