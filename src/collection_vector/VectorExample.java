@@ -9,11 +9,11 @@ public class VectorExample {
 
 		List<Board> list = new Vector<Board>();
 		
-		list.add(new Board("Á¦¸ñ1", "³»¿ë1", "±Û¾´ÀÌ1"));
-		list.add(new Board("Á¦¸ñ2", "³»¿ë2", "±Û¾´ÀÌ2"));
-		list.add(new Board("Á¦¸ñ3", "³»¿ë3", "±Û¾´ÀÌ3"));
-		list.add(new Board("Á¦¸ñ4", "³»¿ë4", "±Û¾´ÀÌ4"));
-		list.add(new Board("Á¦¸ñ5", "³»¿ë5", "±Û¾´ÀÌ5"));
+		list.add(new Board("ì œëª©1", "ë‚´ìš©1", "ê¸€ì“´ì´1"));
+		list.add(new Board("ì œëª©2", "ë‚´ìš©2", "ê¸€ì“´ì´2"));
+		list.add(new Board("ì œëª©3", "ë‚´ìš©3", "ê¸€ì“´ì´3"));
+		list.add(new Board("ì œëª©4", "ë‚´ìš©4", "ê¸€ì“´ì´4"));
+		list.add(new Board("ì œëª©5", "ë‚´ìš©5", "ê¸€ì“´ì´5"));
 		
 		list.remove(2);
 		list.remove(3);
