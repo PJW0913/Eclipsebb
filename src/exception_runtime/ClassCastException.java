@@ -4,21 +4,21 @@ public class ClassCastException {
 
 	public static void main(String[] args) {
 
-//		//Á¤»óÄÚµå
+//		//ì •ìƒì½”ë“œ
 //		Animal animal = new Dog();
 //		Dog dog = (Dog) animal;
 //		
 //		RemoteControl rc = new Television();
 //		Television tv = (Television) rc;
 //		
-//		//¿¹¿Ü ¹ß»ı ÄÚµå
+//		//ì˜ˆì™¸ ë°œìƒ ì½”ë“œ
 //		Animal animal = new Dog();
 //		Cat cat = (Cat) animal;
 //		
 //		RemoteControl rc = new Television();
 //		Audio audio = (Audio) rc;
 //		
-//		//instanceof ¿¬»êÀÚ·Î Å¸ÀÔ º¯È¯ °¡´É ¿©ºÎ¸¦ ¹Ì¸® È®¤·´Ï
+//		//instanceof ì—°ì‚°ìë¡œ íƒ€ì… ë³€í™˜ ê°€ëŠ¥ ì—¬ë¶€ë¥¼ ë¯¸ë¦¬ í™•ã…‡ë‹ˆ
 //		Animal animal = new Dog();
 //		if(animal instanceof Dog) {
 //			Dog dog = (Dog) animal;

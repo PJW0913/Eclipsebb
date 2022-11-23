@@ -1,19 +1,19 @@
 package exception_runtime;
 
-public class ArrayIndexOutOfBoundsException {	//¹è¿­¿¡¼­ ÀÎµ¦½º ¹üÀ§¸¦ ÃÊ°úÇÏ¿© »ç¿ëÇÒ °æ¿ì ¹ß»ý
+public class ArrayIndexOutOfBoundsException {	//ë°°ì—´ì—ì„œ ì¸ë±ìŠ¤ ë²”ìœ„ë¥¼ ì´ˆê³¼í•˜ì—¬ ì‚¬ìš©í•  ê²½ìš° ë°œìƒ
 
 	public static void main(String[] args) {
 
 		String data1 = args[0];
-		String data2 = args[1];	//2°³ÀÇ ½ÇÇà ¸Å°³ °ªÀ» ÁÖÁö ¾Ê¾Ò±â ¶§¹®¿¡
+		String data2 = args[1];	//2ê°œì˜ ì‹¤í–‰ ë§¤ê°œ ê°’ì„ ì£¼ì§€ ì•Šì•˜ê¸° ë•Œë¬¸ì—
 		
 		System.out.println("args[0]: " + data1);
 		System.out.println("args[1]: " + data2);
 	}
 
 }
-//[Run] - [Run Configuration] - [Arguments]ÅÇ - [Program arguments]
-//¹è¿­ ÀÎµ¦½º ÀÔ·Â
-// -> args[0]: ¹è¿­
-//    args[1]: ÀÎµ¦½º
-// Ãâ·Â
+//[Run] - [Run Configuration] - [Arguments]íƒ­ - [Program arguments]
+//ë°°ì—´ ì¸ë±ìŠ¤ ìž…ë ¥
+// -> args[0]: ë°°ì—´
+//    args[1]: ì¸ë±ìŠ¤
+// ì¶œë ¥

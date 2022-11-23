@@ -11,7 +11,7 @@ public class ArrayIndexOutOfBoundsExceptionExample {
 			System.out.println("args[0]:" + data1);
 			System.out.println("args[1]:" + data2);
 		}else {
-			System.out.println("µÎ °³ÀÇ ½ÇÇà ¸Å°³ °ªÀÌ ÇÊ¿äÇÕ´Ï´Ù.");
+			System.out.println("ë‘ ê°œì˜ ì‹¤í–‰ ë§¤ê°œ ê°’ì´ í•„ìš”í•©ë‹ˆë‹¤.");
 		}
 
 	}

@@ -1,6 +1,6 @@
 package exception_runtime;
 
-public class NumberFormatExceptionExample {	//¹®ÀÚ¿­À» ¼ıÀÚ·Î º¯È¯ÇÒ ¶§ ¼ıÀÚ·Î º¯È¯µÉ ¼ö ¾ø´Â ¹®ÀÚ°¡ Æ÷ÇÔµÇ¾î ÀÖÀ» °æ¿ì ¹ß»ı
+public class NumberFormatExceptionExample {	//ë¬¸ìì—´ì„ ìˆ«ìë¡œ ë³€í™˜í•  ë•Œ ìˆ«ìë¡œ ë³€í™˜ë  ìˆ˜ ì—†ëŠ” ë¬¸ìê°€ í¬í•¨ë˜ì–´ ìˆì„ ê²½ìš° ë°œìƒ
 
 	public static void main(String[] args) {
 
@@ -8,7 +8,7 @@ public class NumberFormatExceptionExample {	//¹®ÀÚ¿­À» ¼ıÀÚ·Î º¯È¯ÇÒ ¶§ ¼ıÀÚ·Î º
 		String data2 = "a100";
 		
 		int value1 = Integer.parseInt(data1);
-		int value2 = Integer.parseInt(data2);	//NumberFormatException ¹ß»ı
+		int value2 = Integer.parseInt(data2);	//NumberFormatException ë°œìƒ
 		
 		int result = value1 + value2;
 		System.out.println(data1 + "+" + data2 + "=" + result);

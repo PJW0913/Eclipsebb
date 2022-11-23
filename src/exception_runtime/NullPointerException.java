@@ -1,6 +1,6 @@
 package exception_runtime;
 
-public class NullPointerException {	//°´Ã¼ ÂüÁ¶°¡ ¾ø´Â »óÅÂÀÇ ÂüÁ¶ º¯¼ö·Î °´Ã¼ Á¢±Ù ¿¬»êÀÚ µµÆ®¸¦ »ç¿ëÇÒ °æ¿ì ¹ß»ı
+public class NullPointerException {	//ê°ì²´ ì°¸ì¡°ê°€ ì—†ëŠ” ìƒíƒœì˜ ì°¸ì¡° ë³€ìˆ˜ë¡œ ê°ì²´ ì ‘ê·¼ ì—°ì‚°ì ë„íŠ¸ë¥¼ ì‚¬ìš©í•  ê²½ìš° ë°œìƒ
 
 	public static void main(String[] args) {
 
