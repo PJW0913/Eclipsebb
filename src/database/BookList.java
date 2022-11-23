@@ -17,15 +17,15 @@ public class BookList {
       
       try {
          Class.forName("oracle.jdbc.driver.OracleDriver");
-         System.out.println("µå¶óÀÌ¹ö ·Îµå ¼º°ø");
+         System.out.println("ë“œë¼ì´ë²„ ë¡œë“œ ì„±ê³µ");
       }catch(ClassNotFoundException e) {
          e.printStackTrace();
       }
       
       try {
-         System.out.println("µ¥ÀÌÅÍº£ÀÌ½º ¿¬°á ÁØºñ ...");
+         System.out.println("ë°ì´í„°ë² ì´ìŠ¤ ì—°ê²° ì¤€ë¹„ ...");
          con=DriverManager.getConnection(url,userid,pwd);
-         System.out.println("µ¥ÀÌÅÍº£ÀÌ½º ¿¬°á ¼º°ø");
+         System.out.println("ë°ì´í„°ë² ì´ìŠ¤ ì—°ê²° ì„±ê³µ");
       }catch(SQLException e) {
          e.printStackTrace();
       }
