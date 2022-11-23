@@ -13,7 +13,7 @@ public class SwingJLebelEx1 {
 		
 		JLabel I;
 		
-		I = new JLabel("ÀÌ¹ÌÁöÃâ·Â", new ImageIcon("cat.png"), SwingConstants.RIGHT);
+		I = new JLabel("Ã€ÃŒÂ¹ÃŒÃÃ¶ÃƒÃ¢Â·Ã‚", new ImageIcon("cat.png"), SwingConstants.RIGHT);
 		I.setBounds(0, 10, 150, 64);
 		
 		f.add(I);

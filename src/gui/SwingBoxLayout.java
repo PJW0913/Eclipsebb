@@ -9,7 +9,7 @@ public class SwingBoxLayout {
 
 	public static void main(String[] args) {
 
-		JFrame f = new JFrame("BOXLayout ¿¹Á¦");
+		JFrame f = new JFrame("BOXLayout ì˜ˆì œ");
 		
 		Button buttons[];
 		buttons = new Button[5];
@@ -19,7 +19,7 @@ public class SwingBoxLayout {
 			f.add(buttons[i]);
 		}
 		
-		//ÇÁ·¹ÀÓ¿¡ Ãß°¡µÇ´Â ÄÄÆÛ³ÍÆ®µéÀ» yÃà¹æÇâÀ¸·Î ÇÏ³ª¾¿ ³ª¿­ÇØ¼­ ¹èÄ¡
+		//í”„ë ˆì„ì— ì¶”ê°€ë˜ëŠ” ì»´í¼ë„ŒíŠ¸ë“¤ì„ yì¶•ë°©í–¥ìœ¼ë¡œ í•˜ë‚˜ì”© ë‚˜ì—´í•´ì„œ ë°°ì¹˜
 //		f.setLayout(new BoxLayout(f.getContentPane(), BoxLayout.X_AXIS));
 		f.setLayout(new BoxLayout(f.getContentPane(), BoxLayout.Y_AXIS));
 		f.setSize(350, 150);

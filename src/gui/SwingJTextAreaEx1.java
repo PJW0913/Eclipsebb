@@ -9,7 +9,7 @@ public class SwingJTextAreaEx1 {
 
 		JFrame f = new JFrame();
 		
-		JTextArea area = new JTextArea("dÀÌ ¿µ¿ª¾È¿¡ ÅØ½ºÆ®¸¦ ÆíÁı ÇÒ ¼ö ÀÖ½À´Ï´Ù.");
+		JTextArea area = new JTextArea("dì´ ì˜ì—­ì•ˆì— í…ìŠ¤íŠ¸ë¥¼ í¸ì§‘ í•  ìˆ˜ ìˆìŠµë‹ˆë‹¤.");
 		
 		area.setBounds(10, 30, 260, 70);
 		

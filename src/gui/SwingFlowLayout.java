@@ -9,7 +9,7 @@ public class SwingFlowLayout {
 
 	public static void main(String[] args) {
 
-		JFrame f = new JFrame("FlowLayout ¿¹Á¦");
+		JFrame f = new JFrame("FlowLayout ì˜ˆì œ");
 		
 		JButton b1 = new JButton("1");
 		JButton b2 = new JButton("2");
@@ -23,10 +23,10 @@ public class SwingFlowLayout {
 		f.add(b4);
 		f.add(b5);
 		
-		// setLayout() ¸Ş¼Òµå·Î ¹èÄ¡°ü¸®ÀÚ ¼³Á¤
-		f.setLayout(new FlowLayout(FlowLayout.RIGHT)); //¿À¸¥ÂÊ Á¤·Ä ¼³Á¤
+		// setLayout() ë©”ì†Œë“œë¡œ ë°°ì¹˜ê´€ë¦¬ì ì„¤ì •
+		f.setLayout(new FlowLayout(FlowLayout.RIGHT)); //ì˜¤ë¥¸ìª½ ì •ë ¬ ì„¤ì •
 
-		f.setSize(300, 100);	//frameÀÇ Å©±â
+		f.setSize(300, 100);	//frameì˜ í¬ê¸°
 		f.setVisible(true);
 	}
 

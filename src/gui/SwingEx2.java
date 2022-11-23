@@ -8,16 +8,16 @@ public class SwingEx2 extends JFrame {
 	JFrame f;
 	
 	SwingEx2(){
-		JFrame f = new JFrame();	//JFrameÀÇ ÀÎ½ºÅÏ½º »ı¼º
+		JFrame f = new JFrame();	//JFrameì˜ ì¸ìŠ¤í„´ìŠ¤ ìƒì„±
 		
-		JButton b = new JButton("¹öÆ°");	//JButton ÀÎ½ºÅÏ½º »ı¼º
-		b.setBounds(50, 20, 100, 20);	//¸¸µé¾îÁø ¿ì´Ïµµ¿ì »ó¿¡¼­ xÃà, yÃà, ³Êºñ, ³ôÀÌ
+		JButton b = new JButton("ë²„íŠ¼");	//JButton ì¸ìŠ¤í„´ìŠ¤ ìƒì„±
+		b.setBounds(50, 20, 100, 20);	//ë§Œë“¤ì–´ì§„ ìš°ë‹ˆë„ìš° ìƒì—ì„œ xì¶•, yì¶•, ë„ˆë¹„, ë†’ì´
 		
-		f.add(b);	//JFrame¿¡ ¹öÆ° Ãß°¡
+		f.add(b);	//JFrameì— ë²„íŠ¼ ì¶”ê°€
 		
-		f.setSize(200, 100);	//À©µµ¿ìÀÇ »çÀÌÁî: Æø200°ú ³ôÀÌ 100
-		f.setLayout(null);	//·¹ÀÌ¾Æ¿ô °ü¸®ÀÚ¸¦ ¼³Á¤(»ç¿ë)ÇÏÁö ¾ÊÀ½
-		f.setVisible(true);	//ÇÁ·¹ÀÓÀ» È­¸é¿¡ Ç¥½Ã
+		f.setSize(200, 100);	//ìœˆë„ìš°ì˜ ì‚¬ì´ì¦ˆ: í­200ê³¼ ë†’ì´ 100
+		f.setLayout(null);	//ë ˆì´ì•„ì›ƒ ê´€ë¦¬ìë¥¼ ì„¤ì •(ì‚¬ìš©)í•˜ì§€ ì•ŠìŒ
+		f.setVisible(true);	//í”„ë ˆì„ì„ í™”ë©´ì— í‘œì‹œ
 	}
 	
 	public static void main(String[] args) {

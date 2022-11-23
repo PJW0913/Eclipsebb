@@ -8,13 +8,13 @@ public class SwingBorderLayout {
 
 	public static void main(String[] args) {
 
-		JFrame f = new JFrame("FlowLayout øπ¡¶");
+		JFrame f = new JFrame("FlowLayout ÏòàÏ†ú");
 		
-		JButton b1 = new JButton("∫œ");
-		JButton b2 = new JButton("≥≤");
-		JButton b3 = new JButton("µø");
-		JButton b4 = new JButton("º≠");
-		JButton b5 = new JButton("¡ﬂæ”");
+		JButton b1 = new JButton("Î∂Å");
+		JButton b2 = new JButton("ÎÇ®");
+		JButton b3 = new JButton("Îèô");
+		JButton b4 = new JButton("ÏÑú");
+		JButton b5 = new JButton("Ï§ëÏïô");
 		
 		f.add(b1, BorderLayout.NORTH);
 		f.add(b2, BorderLayout.SOUTH);
@@ -23,7 +23,7 @@ public class SwingBorderLayout {
 		f.add(b5, BorderLayout.CENTER);
 		
 
-		f.setSize(300, 150);	//frame¿« ≈©±‚
+		f.setSize(300, 150);	//frameÏùò ÌÅ¨Í∏∞
 		f.setVisible(true);
 	}
 

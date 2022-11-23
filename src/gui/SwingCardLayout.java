@@ -11,21 +11,21 @@ public class SwingCardLayout {
 
 	public static void main(String[] args) {
 
-		JFrame f = new JFrame("CardLayout ¿¹Á¦");
+		JFrame f = new JFrame("CardLayout ì˜ˆì œ");
 		
-		CardLayout card = new CardLayout(40, 30);  //CardLayout ÀÎ½ºÅÏ½º »ı¼º
+		CardLayout card = new CardLayout(40, 30);  //CardLayout ì¸ìŠ¤í„´ìŠ¤ ìƒì„±
 		f.setLayout(card);
 		
 		JButton b1, b2, b3;
-		b1 = new JButton("¼ÕÈï¹Î");
-		b2 = new JButton("¸Ş½Ã");
-		b3 = new JButton("È£³¯µÎ");
+		b1 = new JButton("ì†í¥ë¯¼");
+		b2 = new JButton("ë©”ì‹œ");
+		b3 = new JButton("í˜¸ë‚ ë‘");
 		
-		//ÀÍ¸íÅ¬·¡½º ÇüÅÂ·Î ÀÌº¥Æ® ¸®½º³Ê Á¤ÀÇ
+		//ìµëª…í´ë˜ìŠ¤ í˜•íƒœë¡œ ì´ë²¤íŠ¸ ë¦¬ìŠ¤ë„ˆ ì •ì˜
 		ActionListener listener = new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				card.next(f.getContentPane()); //next() ¸Ş¼Òµå·Î ´ÙÀ½ ÄÁÅ×ÀÌ³Ê·Î ³Ñ±è.
+				card.next(f.getContentPane()); //next() ë©”ì†Œë“œë¡œ ë‹¤ìŒ ì»¨í…Œì´ë„ˆë¡œ ë„˜ê¹€.
 			}
 		};
 		

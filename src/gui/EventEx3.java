@@ -13,7 +13,7 @@ public class EventEx3 extends JFrame{
 	
 	EventEx3(){
 		
-		// component »ı¼º
+		// component ìƒì„±
 		label = new JLabel();
 		label.setBounds(10, 10, 170, 20);
 		Button btn = new Button("Click me");
@@ -23,7 +23,7 @@ public class EventEx3 extends JFrame{
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				label.setText("ÀÍ¸í°´Ã¼¸¦ ÀÌ¿ëÇÑ ÀÌº¥Æ®");
+				label.setText("ìµëª…ê°ì²´ë¥¼ ì´ìš©í•œ ì´ë²¤íŠ¸");
 			}
 		});
 		

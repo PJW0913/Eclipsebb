@@ -11,28 +11,28 @@ public class SwingJBottonEx2 {
 
 	public static void main(String[] args) {
 
-		JFrame f = new JFrame("JBottonÀ» ÀÌ¿ëÇÑ ¹öÆ°"); // JFrameÀÇ ÀÎ½ºÅÏ½º »ı¼º
+		JFrame f = new JFrame("JBottonì„ ì´ìš©í•œ ë²„íŠ¼"); // JFrameì˜ ì¸ìŠ¤í„´ìŠ¤ ìƒì„±
 		
-		final JTextField tf = new JTextField();	//JTextField »ı¼º
+		final JTextField tf = new JTextField();	//JTextField ìƒì„±
 		tf.setBounds(10, 20, 350, 20);
 		
-		JButton b = new JButton("¹öÆ° Click"); //JButton ÀÎ½ºÅÏ½º »ı¼º
-		b.setBounds(50, 50, 200, 20); // ¸¸µé¾îÁø À©µµ¿ì »ó¿¡¼­ xÃà, yÃà, ³Êºñ, ³ôÀÌ
+		JButton b = new JButton("ë²„íŠ¼ Click"); //JButton ì¸ìŠ¤í„´ìŠ¤ ìƒì„±
+		b.setBounds(50, 50, 200, 20); // ë§Œë“¤ì–´ì§„ ìœˆë„ìš° ìƒì—ì„œ xì¶•, yì¶•, ë„ˆë¹„, ë†’ì´
 		
-		//¹öÆ° ÀÎ½ºÅÏ½º¿¡ ÀÌº¥Æ® °´Ã¼ Àû¿ë
+		//ë²„íŠ¼ ì¸ìŠ¤í„´ìŠ¤ì— ì´ë²¤íŠ¸ ê°ì²´ ì ìš©
 		b.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				tf.setText("¹öÆ°À» Å¬¸¯Çß½À´Ï´Ù.");
+				tf.setText("ë²„íŠ¼ì„ í´ë¦­í–ˆìŠµë‹ˆë‹¤.");
 			}
 		});
 				
-		f.add(b);	//JFrame¿¡ ¹öÆ°Ãß°¡
-		f.add(tf);	//JFrame¿¡ Å×±×½ºÆ® ÇÊµå Ãß°¡
+		f.add(b);	//JFrameì— ë²„íŠ¼ì¶”ê°€
+		f.add(tf);	//JFrameì— í…Œê·¸ìŠ¤íŠ¸ í•„ë“œ ì¶”ê°€
 		
-		f.setSize(310, 150);	//¿ì´Ï
-		f.setLayout(null);	//·¹ÀÌ¾Æ¿ô °ü¸®ÀÚ¸¦ ¼³Á¤(»ç¿ë)ÇÏÁö ¾ÊÀ½
-		f.setVisible(true);	//ÇÁ·¹ÀÓÀ» È­¸é¿¡ Æ÷½Ã
+		f.setSize(310, 150);	//ìš°ë‹ˆ
+		f.setLayout(null);	//ë ˆì´ì•„ì›ƒ ê´€ë¦¬ìë¥¼ ì„¤ì •(ì‚¬ìš©)í•˜ì§€ ì•ŠìŒ
+		f.setVisible(true);	//í”„ë ˆì„ì„ í™”ë©´ì— í¬ì‹œ
 				
 	}
 
