@@ -6,11 +6,11 @@ public class AccountExample {
 
 		Account account = new Account();
 		
-		//¿¹±ÝÇÏ±â
+		//ì˜ˆê¸ˆí•˜ê¸°
 		account.deposit(10000);
-		System.out.println("ÀÔ±Ý¾×: " + account.getBalance());
+		System.out.println("ìž…ê¸ˆì•¡: " + account.getBalance());
 		
-		//Ãâ±ÝÇÏ±â
+		//ì¶œê¸ˆí•˜ê¸°
 		try {
 			account.withdraw(30000);
 		}catch(BalanceInsufficientEception e) {
