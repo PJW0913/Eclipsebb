@@ -10,20 +10,20 @@ public class CarExample {
 			int problemLocation = car.run();
 			switch(problemLocation) {
 			case 1:
-				System.out.println("¾Õ¿ŞÂÊ HankookTire·Î ±³Ã¼");
-				car.frontLeftTire = new HankookTire("¾Õ¿ŞÂÊ", 15);
+				System.out.println("ì•ì™¼ìª½ HankookTireë¡œ êµì²´");
+				car.frontLeftTire = new HankookTire("ì•ì™¼ìª½", 15);
 				break;
 			case 2:
-				System.out.println("¾Õ¿À¸¥ÂÊ KumhoTire·Î ±³Ã¼");
-				car.frontRightTire = new HankookTire("¾Õ¿ŞÂÊ", 13);
+				System.out.println("ì•ì˜¤ë¥¸ìª½ KumhoTireë¡œ êµì²´");
+				car.frontRightTire = new HankookTire("ì•ì™¼ìª½", 13);
 				break;
 			case 3:
-				System.out.println("µÚ¿ŞÂÊ HankookTire·Î ±³Ã¼");
-				car.backLeftTire = new HankookTire("¾Õ¿ŞÂÊ", 14);
+				System.out.println("ë’¤ì™¼ìª½ HankookTireë¡œ êµì²´");
+				car.backLeftTire = new HankookTire("ì•ì™¼ìª½", 14);
 				break;
 			case 4:
-				System.out.println("µÚ¿À¸¥ÂÊ KumhoTire·Î ±³Ã¼");
-				car.backRightTire = new HankookTire("¾Õ¿ŞÂÊ", 17);
+				System.out.println("ë’¤ì˜¤ë¥¸ìª½ KumhoTireë¡œ êµì²´");
+				car.backRightTire = new HankookTire("ì•ì™¼ìª½", 17);
 				break;
 			}
 			System.out.println("----------------------------------------");

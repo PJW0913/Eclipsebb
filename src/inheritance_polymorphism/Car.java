@@ -2,17 +2,17 @@ package inheritance_polymorphism;
 
 public class Car {
 
-	//ÇÊµå
-	Tire frontLeftTire = new Tire("¾Õ¿ŞÂÊ", 6);
-	Tire frontRightTire = new Tire("¾Õ¿À¸¥ÂÊ", 2);
-	Tire backLeftTire = new Tire("µÚ¿ŞÂÊ", 3);
-	Tire backRightTire = new Tire("µÚ¿À¸¥ÂÊ", 4);
+	//í•„ë“œ
+	Tire frontLeftTire = new Tire("ì•ì™¼ìª½", 6);
+	Tire frontRightTire = new Tire("ì•ì˜¤ë¥¸ìª½", 2);
+	Tire backLeftTire = new Tire("ë’¤ì™¼ìª½", 3);
+	Tire backRightTire = new Tire("ë’¤ì˜¤ë¥¸ìª½", 4);
 	
-	//»ı¼ºÀÚ
+	//ìƒì„±ì
 	
-	//¸Ş¼Òµå
+	//ë©”ì†Œë“œ
 	int run() {
-		System.out.println("[ÀÚµ¿Â÷°¡ ´Ş¸³´Ï´Ù.]");
+		System.out.println("[ìë™ì°¨ê°€ ë‹¬ë¦½ë‹ˆë‹¤.]");
 		if(frontLeftTire.roll() == false) {stop(); return 1;};
 		if(frontRightTire.roll() == false) {stop(); return 2;};
 		if(backLeftTire.roll() == false) {stop(); return 3;};
@@ -21,6 +21,6 @@ public class Car {
 	}
 	
 	void stop() {
-		System.out.println("[ÀÚµ¿Â÷°¡ ¸ØÃä´Ï´Ù.]");
+		System.out.println("[ìë™ì°¨ê°€ ë©ˆì¶¥ë‹ˆë‹¤.]");
 	}
 }

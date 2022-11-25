@@ -2,21 +2,21 @@ package inheritance_polymorphism;
 
 public class HankookTire extends Tire{
 
-	//ÇÊµå
-	//»ı¼ºÀÚ
+	//í•„ë“œ
+	//ìƒì„±ì
 	public HankookTire(String location, int maxRotation) {
 		super(location, maxRotation);
 	}
 	
-	//¸Ş¼Òµå
+	//ë©”ì†Œë“œ
 	@Override
 	public boolean roll() {
 		++accumulatedRotation;
 		if(accumulatedRotation < maxRotation) {
-			System.out.println(location + "HankookTire ¼ö¸í: " + (maxRotation - accumulatedRotation) + "È¸");
+			System.out.println(location + "HankookTire ìˆ˜ëª…: " + (maxRotation - accumulatedRotation) + "íšŒ");
 			return true;
 		}else {
-			System.out.println("***" + location + "HankookTireÆãÅ©***");
+			System.out.println("***" + location + "HankookTireí‘í¬***");
 			return false;
 		}
 	}

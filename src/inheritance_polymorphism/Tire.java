@@ -2,25 +2,25 @@ package inheritance_polymorphism;
 
 public class Tire {
 
-	//ÇÊµå
-	public int maxRotation;	//ÃÖ´ë È¸Àü¼ö(ÃÖ´ë¼ö¸í)
-	public int accumulatedRotation;	//´©ÀûÈ¸Àü¼ö
-	public String location;	//Å¸ÀÌ¾îÀÇ À§Ä¡
+	//í•„ë“œ
+	public int maxRotation;	//ìµœëŒ€ íšŒì „ìˆ˜(ìµœëŒ€ìˆ˜ëª…)
+	public int accumulatedRotation;	//ëˆ„ì íšŒì „ìˆ˜
+	public String location;	//íƒ€ì´ì–´ì˜ ìœ„ì¹˜
 	
-	//»ı¼ºÀÚ
+	//ìƒì„±ì
 	public Tire(String location, int maxRotation) {
 		this.location = location;
 		this.maxRotation = maxRotation;
 	}
 	
-	//¸Ş¼Òµå
+	//ë©”ì†Œë“œ
 	public boolean roll() {
 		++accumulatedRotation;
 		if(accumulatedRotation < maxRotation) {
-			System.out.println(location + "Tire ¼ö¸í: " + (maxRotation - accumulatedRotation) + "È¸");
+			System.out.println(location + "Tire ìˆ˜ëª…: " + (maxRotation - accumulatedRotation) + "íšŒ");
 			return true;
 		}else {
-			System.out.println("***" + location + "TireÆãÅ©***");
+			System.out.println("***" + location + "Tireí‘í¬***");
 			return false;
 		}
 	}
